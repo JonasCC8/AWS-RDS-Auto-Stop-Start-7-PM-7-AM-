@@ -157,36 +157,9 @@ def lambda_handler(event, context):
 ```
 Reemplazar NOMBRE_RDS por el identificador real de tu base de datos.
 
-# 🧩 Paso 5 – Crear Regla en EventBridge para Apagar RDS (7:00 PM)
-
-En este paso configuraremos Amazon EventBridge para ejecutar automáticamente la función Lambda que apaga la instancia RDS todos los días a las 7:00 PM en la región us-west-2 (Oregon).
-
----
-
-## 📍 Ir a la Consola AWS
-
-EventBridge → Rules → Create rule
-
----
-
-## ⚙️ Configuración General
-
-- Name: `stop-rds-7pm`
-- Description: Apaga automáticamente la instancia RDS a las 7 PM
-- Event source: Schedule
-- Rule type: Schedule
-
-Click en **Next**
-
----
-
-## ⏰ Configurar Expresión Cron
-
-Seleccionar:
-
-- Schedule pattern → Cron expression
 
 Ingresar:
+
 # 🧩 Paso 5 – Crear Regla en EventBridge para Apagar RDS (7:00 PM)
 
 En este paso configuraremos Amazon EventBridge para ejecutar automáticamente la función Lambda que apaga la instancia RDS todos los días a las 7:00 PM en la región us-west-2 (Oregon).
