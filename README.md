@@ -1,4 +1,4 @@
-# ⏰ AWS RDS Auto Stop & Start (7 PM / 7 AM) – us-west-2
+# ⏰ AWS RDS Auto Stop & Start (7 PM / 7 AM) 
 
 Automatización para apagar y encender una instancia Amazon RDS utilizando AWS Lambda y Amazon EventBridge.
 
